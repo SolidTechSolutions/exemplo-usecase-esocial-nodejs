@@ -1,0 +1,16 @@
+{
+  "name": "exemplo-usecase-esocial-nodejs",
+  "version": "1.0.0",
+  "description": "SolidSign API - eSocial use-case example — KMS signing (Fastify / Node.js 18+)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "@fastify/multipart": "^8.1.0",
+    "dotenv": "^16.4.0"
+  }
+}
